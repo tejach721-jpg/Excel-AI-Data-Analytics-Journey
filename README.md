@@ -222,3 +222,56 @@ I also learned the importance of aggregating employee sales before identifying t
 Continue learning Advanced Excel and AI, improve my analytical thinking and develop practical skills for Data Analyst and MIS Executive roles.
 
 #Excel #AdvancedExcel #DataAnalytics #ExcelWithAI #LearningJourney
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Day 5 – Excel Formulas and Functions 📊
+
+## 📌 Overview
+Today I learned and practised essential Excel formulas used in Data Analysis and MIS reporting as part of my 30-Day Advanced Excel + AI learning journey.
+
+## 📚 Topics Covered
+- **SUM:** Calculate total sales.
+- **AVERAGE:** Calculate average order value.
+- **COUNT:** Count numerical cells.
+- **COUNTA:** Count non-empty cells.
+- **MAX:** Find the highest value.
+- **MIN:** Find the lowest value.
+
+## 🗂️ Practical Dataset
+Worked with a retail sales dataset containing:
+- Order ID
+- Employee
+- Product
+- Region
+- Quantity
+- Unit Price
+- Order Status
+- Sales
+
+## 📈 Sales Summary – Practical Results
+
+| Metric | Result |
+|---|---:|
+| Total Revenue | ₹2,26,300 |
+| Average Order Value | ₹22,630 |
+| Total Orders | 10 |
+| Highest Order | ₹90,000 |
+| Lowest Order | ₹2,000 |
+
+## 🧠 Business Insights
+- Teja generated the highest individual sales.
+- The company generated ₹2,26,300 in total revenue.
+- The average order value was ₹22,630.
+- Practised converting raw sales data into a meaningful business summary.
+
+## 🤖 AI Practice
+Explored how AI can help generate Excel formulas, explain functions, and support sales data analysis.
+
+## 🎯 Key Learning
+Learned how to use basic Excel functions to summarize business data and generate useful insights for management reporting.
+
+**Next:** Day 6 – SUMIF and COUNTIF.
+
+---
+
+#Excel #DataAnalytics #ExcelFunctions #LearningJourney #DataAnalyst
+
