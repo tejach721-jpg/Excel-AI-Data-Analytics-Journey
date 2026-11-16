@@ -274,4 +274,27 @@ Learned how to use basic Excel functions to summarize business data and generate
 ---
 
 #Excel #DataAnalytics #ExcelFunctions #LearningJourney #DataAnalyst
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Day 6 – Advanced Excel Formulas
+
+Today I practised three important Excel functions as part of my 30-day Advanced Excel + AI learning journey.
+
+### Topics Covered
+- SUMIF – Conditional sum
+- COUNTIF – Conditional counting
+- AVERAGEIF – Conditional average
+
+### Practical Exercises
+- Calculated employee-wise sales.
+- Analysed region-wise revenue.
+- Counted pending orders.
+- Calculated product-wise order counts.
+- Prepared a business summary using Excel formulas.
+
+### What I Learned
+I understood how conditional formulas help analyse business data and answer practical questions without manually filtering and calculating everything.
+
+**Next Goal:** Continue learning advanced Excel formulas and improve my analytical thinking.
+
+#Excel #DataAnalytics #LearningJourney #ExcelFormulas #DataAnalyst
 
