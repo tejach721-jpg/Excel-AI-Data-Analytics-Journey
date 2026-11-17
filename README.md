@@ -298,3 +298,123 @@ I understood how conditional formulas help analyse business data and answer prac
 
 #Excel #DataAnalytics #LearningJourney #ExcelFormulas #DataAnalyst
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Day 7 – Advanced Excel: Conditional Counting & Averaging
+
+## 📌 Overview
+Today I learned how to use conditional counting and averaging functions in Excel. I practised these formulas using a real-world sales dataset and solved 12 business questions based on business requirements.
+
+## 1. Formulas Learned
+
+| Formula | Purpose |
+|---|---|
+| COUNTIF | Count records using one condition |
+| COUNTIFS | Count records using multiple conditions |
+| AVERAGEIF | Calculate average using one condition |
+| AVERAGEIFS | Calculate average using multiple conditions |
+| AND | Check whether all conditions are TRUE |
+| OR | Check whether at least one condition is TRUE |
+
+### Additional concepts
+- COUNT vs COUNTA
+- Wildcards (`*`, `?`, `~`)
+- Conditional Formatting using formulas
+- Highlighting entire rows based on multiple conditions
+
+## 2. Practice Dataset
+
+I worked with a sales dataset containing 10 records and the following columns:
+
+- Order_ID
+- Employee
+- Region
+- Product
+- Sales
+- Status
+
+The dataset included employees Rahul, Teja, Kiran and Afroz, with different products, regions, sales amounts and order statuses.
+
+## 3. Business Questions & Formula Solutions
+
+### Beginner Level
+
+| No. | Business Question | Formula | Answer |
+|---|---|---|---:|
+| 1 | How many orders are Completed? | `=COUNTIF(F2:F11,"Completed")` | 6 |
+| 2 | How many orders are Pending? | `=COUNTIF(F2:F11,"Pending")` | 4 |
+| 3 | What is the average sales amount? | `=AVERAGE(E2:E11)` | ₹19,210 |
+| 4 | What is Rahul's average sales? | `=AVERAGEIF(B2:B11,"Rahul",E2:E11)` | ₹32,333.33 |
+
+### Intermediate Level
+
+| No. | Business Question | Formula | Answer |
+|---|---|---|---:|
+| 5 | Rahul's orders in South region | `=COUNTIFS(B2:B11,"Rahul",C2:C11,"South")` | 2 |
+| 6 | How many Laptop orders? | `=COUNTIF(D2:D11,"Laptop")` | 4 |
+| 7 | Average sales of Completed orders | `=AVERAGEIF(F2:F11,"Completed",E2:E11)` | ₹15,500 |
+| 8 | Average sales of Laptop orders in South | `=AVERAGEIFS(E2:E11,D2:D11,"Laptop",C2:C11,"South")` | ₹45,000 |
+
+### Advanced Level
+
+| No. | Business Question | Formula | Answer |
+|---|---|---|---:|
+| 9 | How many order records belong to employees whose names start with T? | `=COUNTIF(B2:B11,"T*")` | 3 |
+| 10 | Count orders where sales exceed ₹10,000 | `=COUNTIF(E2:E11,">10000")` | 4 |
+| 11 | Pending orders with sales above ₹10,000 | `=COUNTIFS(F2:F11,"Pending",E2:E11,">10000")` | 2 |
+| 12 | Average sales of Completed Laptop orders in South | `=AVERAGEIFS(E2:E11,D2:D11,"Laptop",C2:C11,"South",F2:F11,"Completed")` | ₹43,500 |
+
+**Note on Question 9:** There are 3 matching order records, but only 1 unique employee (Teja).
+
+## 4. Conditional Formatting Practice
+
+I also practised highlighting entire rows using multiple conditions.
+
+### Example: Highlight Pending orders with sales above ₹10,000.
+
+Formula:
+
+`=AND($F2="Pending",$E2>10000)`
+
+- Status must be Pending.
+- Sales must be greater than ₹10,000.
+- Both conditions must be TRUE.
+
+This highlights Order IDs 104 and 109.
+
+I also practised:
+- Highlighting entire rows based on Status.
+- Applying different colours based on conditions.
+- Using AND and OR functions.
+- Applying conditional formatting across multiple columns.
+
+## 5. Five Important Learnings
+
+1. COUNTIF is used for counting records based on one condition, while COUNTIFS handles multiple conditions.
+2. AVERAGEIF and AVERAGEIFS help calculate averages based on business requirements.
+3. Wildcards help identify partial text matches in Excel.
+4. AVERAGEIF includes all matching records, including duplicates.
+5. Conditional Formatting with AND and OR helps highlight important business records automatically.
+
+## 6. Screenshots of My Excel Practice
+
+### Practice Dataset
+_Add screenshot of the cleaned and formatted sales dataset here._
+
+### Formula Practice
+_Add screenshots showing COUNTIF, COUNTIFS, AVERAGEIF and AVERAGEIFS results here._
+
+### Conditional Formatting
+_Add screenshot showing Pending orders with sales above ₹10,000 highlighted._
+
+## 7. Key Takeaway
+
+Today's practice helped me understand how Excel formulas can answer real-world business questions.
+
+I am gradually improving my ability to convert business requirements into Excel formulas and generate meaningful insights from data.
+
+---
+
+**Learning Journey:** Advanced Excel + AI – Day 7 of 30
+
+**Career Goal:** Junior Data Analyst | MIS Executive | Data Analyst
+
