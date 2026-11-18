@@ -418,3 +418,112 @@ I am gradually improving my ability to convert business requirements into Excel 
 
 **Career Goal:** Junior Data Analyst | MIS Executive | Data Analyst
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Day 8 – Advanced Excel Lookup Functions
+
+## Topics Covered
+
+Today's learning focused on Excel Lookup Functions and Error Handling.
+
+### 1. VLOOKUP
+
+- Used to search for values vertically.
+- Searches in the first column of the selected table.
+- Returns information from a specified column.
+
+**Syntax:**
+```excel
+=VLOOKUP(lookup_value,table_array,col_index_num,FALSE)
+```
+
+### 2. HLOOKUP
+
+- Used to search for values horizontally.
+- Searches in the first row of the selected table.
+- Returns information from a specified row.
+
+**Syntax:**
+```excel
+=HLOOKUP(lookup_value,table_array,row_index_num,FALSE)
+```
+
+### 3. XLOOKUP
+
+- Searches for a value in a specified range.
+- Returns corresponding information from another range.
+- Can search left, right, vertically and horizontally.
+- Supports exact and approximate matching.
+
+**Syntax:**
+```excel
+=XLOOKUP(lookup_value,lookup_array,return_array,[if_not_found],[match_mode],[search_mode])
+```
+
+**Example:**
+```excel
+=XLOOKUP("E105",A2:A9,E2:E9,"Not Found",0,1)
+```
+
+### 4. IFERROR
+
+- Handles formula errors.
+- Displays a custom message instead of an error.
+- Useful when working with missing employee IDs and lookup results.
+
+**Syntax:**
+```excel
+=IFERROR(value,value_if_error)
+```
+
+**Example:**
+```excel
+=IFERROR(XLOOKUP("E110",A2:A9,E2:E9),"Employee Not Found")
+```
+
+## Practice Dataset
+
+Employee Salary Dataset:
+
+| Employee ID | Name | Department | City | Salary |
+|---|---|---|---|---:|
+| E101 | Rahul | Sales | Hyderabad | 22000 |
+| E102 | Teja | IT | Hyderabad | 28000 |
+| E103 | Kiran | HR | Vijayawada | 24000 |
+| E104 | Afroz | Finance | Chennai | 32000 |
+| E105 | Kumar | IT | Bangalore | 35000 |
+| E106 | Anil | Sales | Hyderabad | 26000 |
+| E107 | Sneha | HR | Chennai | 30000 |
+| E108 | Priya | Finance | Bangalore | 38000 |
+
+## Business Practice Questions
+
+1. Find an employee's salary using VLOOKUP.
+2. Find an employee's department using VLOOKUP.
+3. Find employee details using XLOOKUP.
+4. Retrieve information using HLOOKUP with horizontally arranged data.
+5. Display Employee Not Found for missing IDs using IFERROR.
+6. Handle lookup errors using VLOOKUP and IFERROR.
+7. Retrieve city information using XLOOKUP.
+
+## Key Learnings
+
+1. Understood the difference between vertical and horizontal lookup.
+2. Learned how VLOOKUP searches through columns.
+3. Learned how HLOOKUP searches through rows.
+4. Understood the six arguments of XLOOKUP.
+5. Learned the difference between lookup_array and return_array.
+6. Practised exact matching and reverse search.
+7. Learned how to handle errors using IFERROR.
+8. Understood why selecting the correct lookup range is important.
+
+## Tools Used
+
+- Microsoft Excel
+- ChatGPT for AI-assisted learning and formula explanations
+
+## Learning Outcome
+
+Today, I improved my understanding of Excel Lookup Functions and learned how to retrieve employee information from business datasets and handle lookup errors.
+
+**Day 8 Completed – Continuing My Journey Towards Data Analyst / Junior Data Analyst / MIS Executive Roles.**
