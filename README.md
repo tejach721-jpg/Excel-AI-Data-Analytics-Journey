@@ -527,3 +527,84 @@ Employee Salary Dataset:
 Today, I improved my understanding of Excel Lookup Functions and learned how to retrieve employee information from business datasets and handle lookup errors.
 
 **Day 8 Completed – Continuing My Journey Towards Data Analyst / Junior Data Analyst / MIS Executive Roles.**
+
+
+# Day 9 – Advanced Excel | IFERROR & Error Handling
+
+## 📌 Overview
+Day 9 focused on Excel error handling and applying formulas to practical sales analysis scenarios.
+
+## 📚 Topics Covered
+- IFERROR function
+- Handling #DIV/0! errors
+- SUMIF for employee-wise profit analysis
+- COUNTIFS for identifying zero-sales transactions
+- MAXIFS for finding the highest profit margin
+- Data-quality checking using Excel formulas
+
+## 📊 Practice Dataset
+Sales Performance Dataset containing:
+- Order ID
+- Employee
+- Product
+- Sales
+- Cost
+- Units
+
+## 🧮 Excel Formulas Practised
+
+### 1. Profit Calculation
+```excel
+=D2-E2
+```
+
+### 2. Profit Margin
+```excel
+=IFERROR(G2/D2,0)
+```
+
+### 3. Average Selling Price
+```excel
+=IFERROR(D2/F2,0)
+```
+
+### 4. Employee-wise Total Profit
+```excel
+=SUMIF(B:B,J2,G:G)
+```
+
+### 5. Count Zero-Sales Orders by Product
+```excel
+=COUNTIFS(C:C,J2,D:D,0)
+```
+
+### 6. Highest Profit Margin Excluding Zero-Sales Orders
+```excel
+=MAXIFS(H2:H16,D2:D16,">0")
+```
+
+## 💼 Business Questions Solved
+1. Calculate profit for every order.
+2. Calculate profit margin.
+3. Calculate average selling price.
+4. Identify zero-sales transactions.
+5. Create an employee-wise profit report.
+6. Count zero-sales orders by product.
+7. Find the highest profit margin.
+8. Understand the risks of replacing errors with zero.
+
+## 💡 Key Learnings
+- IFERROR helps handle formula errors.
+- SUMIF helps create employee-wise reports.
+- COUNTIFS helps analyse multiple conditions.
+- MAXIFS helps identify maximum values based on criteria.
+- Error handling should not hide genuine data-quality problems.
+
+## 🛠️ Tools Used
+- Microsoft Excel
+- ChatGPT for learning and formula explanations
+
+## 🎯 Learning Goal
+Building practical Excel skills for Data Analyst, Junior Data Analyst and MIS Executive roles.
+
+**Progress: Day 9 / 30 – Advanced Excel + AI Learning Journey.**
